@@ -1,0 +1,34 @@
+{
+    "name": "tuple-stream",
+    "version": "0.0.0",
+    "description": "zip two streams together like a zipper",
+    "main": "index.js",
+    "dependencies": {
+        "through": "~2.3.4"
+    },
+    "devDependencies": {
+        "tape": "~1.0.4",
+        "concat-stream": "~1.0.0",
+        "split": "~0.2.5"
+    },
+    "scripts": {
+        "test": "tap test/*.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tuple-stream.git"
+    },
+    "homepage": "https://github.com/substack/tuple-stream",
+    "keywords": [
+        "pair",
+        "pairwise",
+        "zip",
+        "stream"
+    ],
+    "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+    },
+    "license": "MIT"
+}
