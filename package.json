@@ -1,7 +1,7 @@
 {
     "name": "tuple-stream",
     "version": "0.0.0",
-    "description": "zip two streams together like a zipper",
+    "description": "zip together two streams into a single stream with aligned pairwise data",
     "main": "index.js",
     "dependencies": {
         "through": "~2.3.4"

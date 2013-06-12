@@ -1,6 +1,6 @@
 # tuple-stream
 
-zip the events from two streams together
+zip together two streams into a single stream with aligned pairwise data
 
 # example
 
