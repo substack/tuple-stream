@@ -36,6 +36,8 @@ module.exports = function (a, b) {
         return function () {
             closed[n] = true;
             if (--pending === 0) output.queue(null);
+            else if (!closed[0]) sa.resume();
+            else if (!closed[1]) sb.resume();
         };
     }
     
