@@ -2,6 +2,10 @@
 
 zip together two streams into a single stream with aligned pairwise data
 
+[![browser support](https://ci.testling.com/substack/tuple-stream.png)](http://ci.testling.com/substack/tuple-stream)
+
+[![build status](https://secure.travis-ci.org/substack/tuple-stream.png)](http://travis-ci.org/substack/tuple-stream)
+
 # example
 
 This is easy to understand with lines:

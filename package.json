@@ -14,6 +14,16 @@
     "scripts": {
         "test": "tap test/*.js"
     },
+    "testling" : {
+        "files" : "test/*.js",
+        "browsers" : {
+            "ie" : [ 6, 7, 8, 9 ],
+            "ff" : [ 3.5, 10, 15.0 ],
+            "chrome" : [ 10, 22 ],
+            "safari" : [ 5.1 ],
+            "opera" : [ 12 ]
+        }
+    },
     "repository": {
         "type": "git",
         "url": "git://github.com/substack/tuple-stream.git"
