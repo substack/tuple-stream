@@ -10,7 +10,7 @@ test('extra', function (t) {
     
     tuple(a, b)
         .pipe(through(function (pair) {
-            this.queue(pair[0] + ' | ' + pair[1] + '\n');
+            this.queue((pair[0] || '') + ' | ' + (pair[1] || '') + '\n');
         }))
         .pipe(concat(function (src) {
             t.equal(src, [
@@ -18,6 +18,7 @@ test('extra', function (t) {
                 ' | two',
                 ' | three',
                 ' | four',
+                ' | ',
                 ''
             ].join('\n'));
         }))
