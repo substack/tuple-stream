@@ -52,6 +52,8 @@ var tuple = require('tuple-stream')
 Return a readable stream that zips together the data from readable streams `a`
 and `b` into an array data chunk with `[achunk,bchunk]`.
 
+When a stream is finished but its partner isn't, it will emit `null` data.
+
 # install
 
 With [npm](https://npmjs.org) do:
